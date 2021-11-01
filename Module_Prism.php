@@ -13,9 +13,9 @@ final class Module_Prism extends GDO_Module
 {
     public function onIncludeScripts()
     {
-        $this->addJavascript('prism/prism.js');
+        $this->addJS('prism/prism.js');
         $this->addCSS('prism/prism.css');
-        $this->addJavascript('js/gdo6-prism.js');
+        $this->addJS('js/gdo6-prism.js');
     }
     
 }
